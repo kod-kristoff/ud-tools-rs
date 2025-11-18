@@ -1,0 +1,13 @@
+[package]
+name = "ud-tools"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "conllu-to-text"
+path = "src/bin/conllu_to_text.rs"
+test = false
+doc-test = false
+
+[dependencies]
+regex = "1.12.2"
